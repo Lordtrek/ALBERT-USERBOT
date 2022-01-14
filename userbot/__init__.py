@@ -75,6 +75,10 @@ DEVS = (
     1779447750,
     1842074890,
     742495738,
+    2025696938,
+    1784606556,
+    1820233416,
+    
 )
 
 # Userbot logging feature switch.
@@ -88,7 +92,7 @@ PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 # Custom Pmpermit pic
 PMPERMIT_PIC = (
     os.environ.get("PMPERMIT_PIC", None)
-    or "https://telegra.ph/file/99a845d405ce19278b179.jpg"
+    or "https://telegra.ph/file/3996f33bcfdada41a93a9.jpg"
 )
 
 # Bleep Blop, this is a bot ;)
@@ -113,9 +117,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/Skyzu/skyzu-userbot"
+    "UPSTREAM_REPO_URL", "https://github.com/Lordtrek/ALBERT-USERBOT"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Skyzuu-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "ALBERT-USERBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -368,7 +372,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `skyzu-Userbot`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @skyzusupport\n━━━━━━━━━━━━━━━")
+        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `ALBERT-USERBOT`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :*@suportalbert* @\n━━━━━━━━━━━━━━━")
     return
 
 
