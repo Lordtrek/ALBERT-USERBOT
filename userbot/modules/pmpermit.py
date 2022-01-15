@@ -50,8 +50,8 @@ DEF_UNAPPROVED_MSG = (
     "**TOLONG JANGAN MELAKUKAN SPAM CHAT KEPADA MAJIKAN SAYA** \n"
     f"**YA KONTOL KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
     "╔═════════════════════╗\n"
-    "│○›Support : @skyzusupport      \n"
-    f"│○›ᗷy : 𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​           \n"
+    "│○›Support : @AlbertEinsteinih      \n"
+    f"│○›ᗷy : 🎭𝐀𝐋𝐁𝐄𝐑𝐓-𝐔𝐒𝐄𝐑𝐁𝐎𝐓🎭           \n"
     "╚═════════════════════╝"
 )
 # =================================================================
