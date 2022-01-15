@@ -1,4 +1,4 @@
-#    ALBERT  -  USERBOT​​ 
+#    🎭ALBERT-USERBOT🎭 
 
 
 
@@ -32,9 +32,10 @@
 
 ##
 
-🔰 **THANKS YOU TO**
-*   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
-*   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
-*   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
+🔰 **SPECIAL CREDIT'S, THANKS TO**
+*   [SENDI](https://github.com/SendiAp/Rose-Userbot)   ROSE-USERBOT
+*   [RISMAN](https://github.com/mrismanaziz/Man-Userbot)   MAN-USERBOT
+*   [SKYZU](https://github.com/Skyzu/skyzu-userbot)   SKYZU-USERBOT
+*   [BAGASKARA](https:/github.com/ybgskr12/BAGAS-USERBOT)   BAGAS-USERBOT
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
