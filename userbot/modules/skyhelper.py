@@ -17,7 +17,7 @@ async def usit(e):
 
 
 @register(outgoing=True, pattern="^.vars$")
-async def var(m):
+async def vars(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
         "\n[DAFTAR VARS](https://raw.githubusercontent.com/Lordtrek/ALBERT-USERBOT/ALBERT-USERBOT/varshelper.txt)"
