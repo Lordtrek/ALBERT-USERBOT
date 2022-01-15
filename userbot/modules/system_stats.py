@@ -168,8 +168,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡ALBERT-USERBOT⚡ Versi:** \n "
-            f"heads/ALBERT-USERBOT ⚡-0-x634i7u1"
+            "**⚜-** 🎭 ALBERT-USERBOT 🎭 Versi:** \n "
+            f"heads/ALBERT-USERBOT 🎭 -0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
