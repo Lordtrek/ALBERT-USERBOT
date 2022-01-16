@@ -1,5 +1,5 @@
 # port by KOALA 🐨 /@manusiarakitann
-# FROM skyzu-userbot <https://github.com/Skyzu/skyzu+userbot>
+# FROM ALBERT-USERBOT <https://github.com/Lordtrek/ALBERT-USERBOT>
 
 from userbot import CMD_HELP
 from userbot.events import register
