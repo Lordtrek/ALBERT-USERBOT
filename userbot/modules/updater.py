@@ -99,7 +99,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return await event.delete()
         else:
             await event.edit(
-                "`ALBERT USERBOT​ Berhasil DiUpdate,Restart Tunggu Sebentar`"
+                "` 🎭ALBERT USERBOT​ 🎭 Berhasil DiUpdate,Restart Tunggu Sebentar`"
             )
             await asyncio.sleep(15)
             await event.delete()
@@ -232,7 +232,7 @@ async def upstream(event):
         await event.edit("` Proses Update ALBERT-USERBOT, Loading....77%`")
         await event.edit("` Proses Update ALBERT-USERBOT, Updating...90%`")
         await event.edit(
-            "` Proses Update ALBERT-USERBOT​, Mohon Tunggu Sebentar....100%`"
+            "` Proses Update 🎭 ALBERT-USERBOT 🎭​ , Mohon Tunggu Sebentar....100%`"
         )
 
     if conf == "now":
@@ -249,7 +249,7 @@ async def upstream(event):
 CMD_HELP.update(
     {
         "update": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-        "\n• : Untuk Melihat Pembaruan Terbaru Skyzu-Userbot."
+        "\n• : Untuk Melihat Pembaruan Terbaru ALBERT-USERBOT."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
         "\n• : Memperbarui ALBERT-USERBOT."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
