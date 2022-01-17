@@ -9,8 +9,8 @@ from userbot.events import register
 cping = [
     "**Hadir bang** `𓆩79.08𓆪` ",
     "**Hadir kak** `𓆩99.65𓆪` ",
-    "**Hadir om** `𓆩76.89𓆪` ",
-    "**Hadir sky** `𓆩72.69𓆪` ",
+    "**Hadir Sayang** `𓆩76.89𓆪` ",
+    "**Hadir Bang Albert** `𓆩72.69𓆪` ",
 ]
 
 
