@@ -12,7 +12,7 @@ async def usit(e):
     await e.edit(
         f"**Halo {DEFAULTUSER} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Telegram](t.me/AlbertEinsteinih)"
-        "\n[Repo](https://github.com/Lordtrek/ALBERT-USERBOT)"
+        "\n[Repo](https://github.com/Lordtrek/ALBERT-USERBOT)")
    
 
 
@@ -20,7 +20,7 @@ async def usit(e):
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Lordtrek/ALBERT-USERBOT/ALBERT-USERBOT/varshelper.txt)"
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Lordtrek/ALBERT-USERBOT/ALBERT-USERBOT/varshelper.txt)")
     )
 
 
