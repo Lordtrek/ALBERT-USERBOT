@@ -21,7 +21,6 @@ async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
         "\n[DAFTAR VARS](https://raw.githubusercontent.com/Lordtrek/ALBERT-USERBOT/ALBERT-USERBOT/varshelper.txt)")
-    )
 
 
 CMD_HELP.update(
