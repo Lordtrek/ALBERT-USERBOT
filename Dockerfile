@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By ALBERT-USERBOT ━━━━━
 
-RUN git clone -b ALBERT-USERBOT https://github.com/Lordtrek/ALBERT-USERBOT /root/userbot
+RUN git clone -b Kyy-Userbot https://github.com/Lordtrek/ALBERT-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
@@ -15,4 +15,5 @@ EXPOSE 80 443
 
 # Finalization
 CMD ["python3", "-m", "userbot"]
+
 
