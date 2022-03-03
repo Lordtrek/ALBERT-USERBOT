@@ -82,7 +82,9 @@ DEVS = (
     2122261901,
     1494108270,
     1883126074,
+    5186653982,
 )
+
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "True"))
