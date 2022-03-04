@@ -22,7 +22,7 @@
 
 ## <p align="center">DEPLOY VIA BOT</p>
 
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=TG9yZHRyZWsvQUxCRVJULVVTRVJCT1QgQUxCRVJULVVTRVJCT1Q
+https://telegram.dog/XTZ_HerokuBot?start=TG9yZHRyZWsvQUxCRVJULVVTRVJCT1QgQUxCRVJULVVTRVJCT1Q
 
 
 
