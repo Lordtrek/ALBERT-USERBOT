@@ -41,6 +41,9 @@ src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&log
 *   [SENDI](https://github.com/SendiAp/Rose-Userbot)   ROSE-USERBOT
 *   [RISMAN](https://github.com/mrismanaziz/Man-Userbot)   MAN-USERBOT
 *   [SKYZU](https://github.com/Skyzu/skyzu-userbot)   SKYZU-USERBOT
-*   [BAGASKARA](https:/github.com/ybgskr12/BAGAS-USERBOT)   BAGAS-USERBOT
-*   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
+*   [BAGASKARA](https://github.com/ybgskr12/BAGAS-USERBOT)   BAGAS-USERBOT
+*   [GREY](https://github.com/grey423/CilikUserbot) CILIK-USERBOT
+  
+
+DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
