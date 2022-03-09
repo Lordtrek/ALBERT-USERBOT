@@ -3,12 +3,11 @@
 
 import requests
 
-from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import man_cmd
+from userbot.events import register
 
 
-@man_cmd(pattern="asupan$")
+@register(outgoing=True, pattern=r"^\.asupan$")
 async def _(event):
     try:
         response = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
@@ -18,7 +17,7 @@ async def _(event):
         await event.edit("**Tidak bisa menemukan video asupan.**")
 
 
-@man_cmd(pattern="wibu$")
+@register(outgoing=True, pattern=r"^\.wibu$")
 async def _(event):
     try:
         response = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
@@ -28,7 +27,7 @@ async def _(event):
         await event.edit("**Tidak bisa menemukan video wibu.**")
 
 
-@man_cmd(pattern="chika$")
+@register(outgoing=True, pattern=r"^\.chika$")
 async def _(event):
     try:
         response = requests.get("https://api-tede.herokuapp.com/api/chika").json()
@@ -38,15 +37,29 @@ async def _(event):
         await event.edit("**Tidak bisa menemukan video chikakiku.**")
 
 
+@register(outgoing=True, pattern=r"^\.bocil$")
+async def _(event):
+    try:
+        response = requests.get(
+            "https://api-alphabot.herokuapp.com/api/asupan/bocil?apikey=Alphabot"
+        ).json()
+        await event.client.send_file(event.chat_id, response["result"])
+        await event.delete()
+    except Exception:
+        await event.edit("**Tidak bisa menemukan video asupan bocil.**")
+
+
 CMD_HELP.update(
     {
-        "asupan": f"**Plugin : **`asupan`\
-        \n\n  •  **Syntax :** `{cmd}asupan`\
+        "asupan": "**Plugin : **`asupan`\
+        \n\n  •  **Syntax :** `.asupan`\
         \n  •  **Function : **Untuk Mengirim video asupan secara random.\
-        \n\n  •  **Syntax :** `{cmd}wibu`\
+        \n\n  •  **Syntax :** `.wibu`\
         \n  •  **Function : **Untuk Mengirim video wibu secara random.\
-        \n\n  •  **Syntax :** `{cmd}chika`\
+        \n\n  •  **Syntax :** `.chika`\
         \n  •  **Function : **Untuk Mengirim video chikakiku secara random.\
+        \n\n  •  **Syntax :** `.bocil`\
+        \n  •  **Function : **Untuk Mengirim video bocil secara random.\
     "
     }
 )
