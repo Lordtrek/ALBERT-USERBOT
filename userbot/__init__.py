@@ -1033,3 +1033,8 @@ with bot:
             "BOTLOG_CHATID Environment Variable Isn't a "
             "Valid Entity. Please Check Your Environment variables/config.env File.")
         quit(1)
+
+# Cmd Handler Costum
+CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
+
+SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
