@@ -15,6 +15,9 @@
   <img src="https://telegra.ph/file/3996f33bcfdada41a93a9.jpg">
 </p>
 
+## sᴛʀɪɴɢ sᴇssɪᴏɴ :
+[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)]( https://replit.com/@Lordtrek/UltroidStringSession-1 )
+
 ## <p align="center">DEPLOY TO HEROKU</p>
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Lordtrek/deploy">
