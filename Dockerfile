@@ -3,6 +3,13 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By ALBERT-USERBOT ━━━━━
 
+
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install ffmpeg -y
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs && \
+    npm i -g npm
+
 RUN git clone -b ALBERT-USERBOT https://github.com/Lordtrek/ALBERT-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
